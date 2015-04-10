@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<script src="js/jquery-2.0.3.min.js" type="text/javascript"></script>
+	<script src="js/jmp.js" type="text/javascript"></script>
+
+	<script src="js/quiz.js" type="text/javascript" ></script>
+
+	<script type="text/javascript"
+	src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	
+
+	<title>Geek vs Nerd</title>
+	<link href="css/gridiculous.css" rel="stylesheet">
+	<link href="css/stylesheet.css" rel="stylesheet">
+
+	<link href='http://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css' />
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,700' rel='stylesheet' type='text/css' />
+
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$("#photo_frame1").click(function() {
+				$("#meaning1").slideToggle("slow");
+			});
+		});
+	</script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$("#photo_frame2").click(function() {
+				$("#meaning2").slideToggle("slow");
+			});
+		});
+	</script>
+
+
+	<script type="text/javascript">
+		(function($) {          
+		    $(document).ready(function(){                    
+		        $(window).scroll(function(){                          
+		            if ($(this).scrollTop() > 690) {
+		                $('#menu').fadeIn(500);
+		            } else {
+		                $('#menu').fadeOut(500);
+		            }
+		        });
+		    });
+		})(jQuery);
+	</script>
+</head>
+<body>
+	<div class="banner" id="top">
+		<div class="grid">
+			<div class="row">
+				<div class="c12">
+					<h1><span class="geek">Geeks</span> vs. <span class="nerd">Nerds</span></h1>
+					<h2>Which One Are You</h2>
+				</div>
+			</div> 
+		</div> 
+	</div>
+
+
+	<section id="menu">
+		<div class="grid">
+			<div class="row">
+				<div class="c12">
+					<nav>
+						<ul>
+							<li><a href="#top">Home</a></li>
+							<li><a href="#section1">Definitions</a></li>
+							<li><a href="#section2">Traits</a></li>
+							<li><a href="#stats">Stats</a></li>
+
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div class="terms" id="background">
+		<div id="section1">
+			<div class="grid">
+				<div class="row">
+					<div class="c12" id="intro">
+						<div id="question_mark"><img src="img/question_mark.png" alt="question" /></div>
+						<div id="inside_border">
+							<p>"You're a geek!" "You're a nerd!" Is that a compliment, a diss, or what? What does that even mean, anyway? It can be confusing, especially since there's some crossover between the two, making possible geeky nerds…or nerdy geeks! Geeks and Nerds tipically get placed as the same types of people. However, there are many differences between the two.</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="c6">
+						<h3 class="center_alignment"><span class="geek">Geek</span></h3>
+						<div id="arrow_left">
+							<img src="img/arrow_left.png" alt="arrow" />
+						</div>
+						<div id="photo_frame1">
+							<img src="img/geek_photoframe.png" alt="geek frame" />
+						</div>
+						<div id="meaning1">
+							<p>An enthusiast of a particular topic or field. Geeks are generally very knowledgeable—even to the point of obsession—about a particular topic.</p>
+
+							<p>It's important to note that geeks are generally social. They have their fascination in what makes them unique, but you probably wouldn't know of their geekitude unless they told you about it.</p>
+						</div>
+					</div>
+
+					<div class="c6">
+						<h3 class="center_alignment"><span class="nerd">Nerd</span></h3>
+						<div id="arrow_right">
+							<img src="img/arrow_right.png" alt="arrow" />
+						</div>
+						<div id="photo_frame2">
+							<img src="img/nerd_photoframe.png" alt="geek frame" />
+						</div>
+						<div id="meaning2">
+							<p>A studious intellectual, although again of a particular topic or field. Nerds are “achievement” oriented, and focus their efforts on acquiring knowledge and skill over trivia and memorabilia.</p>
+
+							<p>The general connotation is of an irritating, unattractive person who may be brilliant, but chooses to focus on non-social pursuits.</p>
+						</div>
+					</div>
+				</div>
+
+				
+
+		
+		<!-- SECTION 2 -->
+		<div id="section2">
+			<div class="grid">
+				<div class="row">
+					<div class="c12">
+						<div class="division">
+							<img class="vs" src="img/vs2.png" alt="geek vs nerd" />
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="c6">
+						<h3 class="center_alignment"><span class="geek">Geek Traits</span></h3>
+					</div>
+
+					<div class="c6 end">
+						<h3 class="center_alignment"><span class="nerd">Nerd Traits</span></h3>
+					</div>
+				</div>
+
+				<!-- FIRST QUESTION! -->
+				<div class="row">
+					<div class="c12">
+						<div class="question">
+							<h4>Do you identify yourself as a:</h4>
+						</div>
+					</div>
+				</div>
+
+				<!-- FIRST QUESTION ANSWERS! -->
+				<div class="row">
+					<div class="c12">
+						<form>
+							<div class="radio_questions">
+								<fieldset>
+									<div class="left_option">
+										<input type="radio" name="firstOption" value="extrovert" checked="checked" />Extrovert
+									</div>
+									<div class="right_option">
+										<input type="radio" name="firstOption" value="introvert" />Introvert
+									</div>
+								</fieldset>
+							</div>
+						</form>
+					</div>					
+				</div>
+			</div>
+		</div>
+
+
+
+		<!-- SECTION 3 -->
+		<div id="section3">
+			<!-- DIVISION -->
+			<div class="grid">
+					<div class="row">
+						<div class="c12">
+							<div class="division">
+								<img class="vs" src="img/vs2.png" alt="geek vs nerd" />
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- SECOND QUESTION! -->
+				<div class="row">
+					<div class="c12">
+						<div class="question">
+							<h4>Do you easily get obsessed with pop culture?</h4>
+						</div>
+					</div>
+				</div>
+				
+				<!-- SECOND QUESTION ANSWERS! -->
+				<div class="row">
+					<div class="c12">
+						<form>
+							<div class="radio_questions">
+								<fieldset>
+									<div class="left_option">
+										<input type="radio" name="secondOption" value="no" checked="checked" />No
+									</div>
+									<div class="right_option">
+										<input type="radio" name="secondOption" value="yes" />Yes
+									</div>
+								</fieldset>	
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- SECTION 4 -->
+		<div id="section4">
+			<!-- DIVISION -->
+			<div class="grid">
+				<div class="row">
+					<div class="c12">
+						<div class="division">
+							<img class="vs" src="img/vs2.png" alt="geek vs nerd" />
+						</div>
+					</div>
+				</div>
+
+				<!-- THIRD QUESTION! -->
+				<div class="row">
+					<div class="c12">
+						<div class="question">						
+							<h4>Which movie do you like most?</h4>
+						</div>
+					</div>
+				</div>
+				
+				<!-- THIRD QUESTION ANSWERS! -->
+				<div class="row">
+					<div class="c12">
+						<form>
+							<div class="radio_questions">
+							<fieldset>
+								<div class="left_option">
+									<input type="radio" name="thirdOption" value="startrek" checked="checked" />Star Trek
+								</div>
+								<div class="right_option">
+									<input type="radio" name="thirdOption" value="starwars" />Star Wars
+								</div>
+							</fieldset>	
+							</div>
+
+							<div id="button">
+								<fieldset>
+									<span>
+										<a href='javascript:void(0);' onClick='outcome();'>View Results</a>
+									</span>
+								</fieldset>
+							</div>
+						</form>
+					</div>
+				</div>
+
+				
+				<!-- QUIZ RESULTS! -->
+				<div class="row">
+					<div class="c12">
+						<div id="geek_result" class="quiz_results">
+							<img src="./img/blank.png" id="geekImg" alt="placeholder1"/><br />
+							<h4 id="outcome1" class="outcome">You are a geek!</h4>
+						</div>
+
+						<div id="nerd_result" class="quiz_results">
+							<img src="./img/blank.png" id="nerdImg" alt="placeholder1"/><br />
+							<h4 id="outcome2" class="outcome">You are a nerd!</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="footer_section">
+		<div class="grid">
+			<div class="c12">
+				<p class="footer_text">This site is not official and is an assignment for a UCF Digital Media course</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
