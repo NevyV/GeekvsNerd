@@ -193,6 +193,7 @@ h3#traits {
 
 #meaning2 {
 	display: none;
+	margin-top: -10px;
 }
 
 #arrow_left {
@@ -224,8 +225,8 @@ input {
 }
 
 .radio_questions .right_option {
-	margin-top: -28px;
-  	margin-left: 210px;
+	margin-top: -154px;
+  	margin-left: 260px;
 }
 
 .question {
@@ -234,6 +235,11 @@ input {
 
 .radio_questions {
 	margin-left: 275px;	
+}
+
+.icon {
+	margin-left: 0px;
+	margin-bottom: 20px;
 }
 
 .quiz_results {
