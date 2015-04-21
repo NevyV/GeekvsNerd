@@ -229,7 +229,163 @@ img#arrow_down {
 	margin-top: 10px;
 }
 
+/*-------------------LABELS--------------------------*/
+.geek_labels p {
+	padding: 10px;
+  	padding-left: 20px;
+  	color: #ffeed1;
+  	font-size: 1em;	
+}
 
+p.labelsg {
+	background-color: #c96156;
+}
+
+p#label1g {
+	margin-left: 80%;
+  	margin-top: -600px;	
+}
+
+p#label2g {
+	width: 194px;
+  	position: relative;
+  	z-index: 1;
+  	margin-top: 190px;
+  	margin-left: 380px;
+}
+
+p#label3g {
+	width: 145px;
+  	margin-top: -240px;
+}
+
+p#label4g {
+	width: 180px;
+  	margin-top: 220px;
+}
+
+.nerd_labels p {
+	padding: 10px;
+  	padding-left: 20px;
+  	color: #ffeed1;
+  	font-size: 1em;	
+}
+
+p.labelsn {
+	background-color: #3e698c;
+}
+
+p#label1n {
+	margin-top: -460px;
+  	width: 140px;
+}
+
+p#label2n {
+	position: relative;
+  	width: 180px;
+  	margin-top: 250px;
+}
+
+p#label3n {
+	width: 190px;
+  	margin-left: 400px;
+	margin-top: -510px;
+  	position: absolute;
+}
+
+p#label4n {
+	width: 115px;
+  	margin-left: 430px;
+  	margin-top: -240px;
+}
+
+#starting_questions {
+	margin-top: 190px;
+}
+
+/*-------------------LINES--------------------------*/
+.linesg {
+	border-bottom: 2px solid #c96156;
+}
+
+#line1g {
+    width: 112px;
+  	height: 47px; 	
+  	-webkit-transform: 
+  		translateY(-20px) 
+  		translateX(5px) 
+  		rotate(27deg);
+  	position: absolute;
+  	margin-top: 137px;
+  	margin-left: 140px;
+}
+
+#line2g {
+    width: 62px;
+  	height: 47px;
+  	-webkit-transform: translateY(-20px) translateX(5px) rotate(27deg);
+  	position: absolute;
+  	margin-top: 177px;
+  	margin-left: 340px;
+}
+
+#line3g {
+    width: 142px;
+  	height: 47px;
+  	-webkit-transform: translateY(-20px) translateX(5px) rotate(-27deg);
+  	position: absolute;
+  	margin-top: 17px;
+  	margin-left: 148px;
+}
+
+#line4g {
+    width: 102px;
+  	height: 47px;
+  	-webkit-transform: translateY(-20px) translateX(5px) rotate(-27deg);
+  	position: absolute;
+  	margin-top: -153px;
+  	margin-left: 338px;
+}
+
+.linesn {
+	border-bottom: 2px solid #3e698c;
+}
+
+#line1n {
+    width: 86px;
+  	height: 47px;
+  	-webkit-transform: translateY(-20px) translateX(5px) rotate(-27deg);
+  	position: absolute;
+  	margin-top: -23px;
+  	margin-left: 120px;
+}
+
+#line2n {
+    width: 146px;
+  	height: 47px;
+  	-webkit-transform: translateY(-20px) translateX(5px) rotate(-27deg);
+  	position: absolute;
+  	margin-top: 217px;
+  	margin-left: 150px;
+}
+
+#line3n {
+    width: 216px;
+  	height: 47px;
+  	-webkit-transform: translateY(-20px) translateX(5px) rotate(-60deg);
+  	position: absolute;
+  	margin-top: -423px;
+  	margin-left: 235px;
+}
+
+#line4n {
+    width: 86px;
+  	height: 47px;
+  	-webkit-transform: translateY(-20px) translateX(5px) rotate(27deg);
+  	position: absolute;
+  	margin-top: -253px;
+  	margin-left: 361px;
+}
 
 /*-------------------QUIZ & RESULTS--------------------------*/
 fieldset {
