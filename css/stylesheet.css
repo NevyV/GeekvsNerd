@@ -193,6 +193,23 @@ h3#traits {
 
 #meaning2 {
 	display: none;
+}
+
+.meaning_box {
+	background-color: #fff;
+ 	height: 260px;
+  	padding-top: 5px;
+  	margin-top: -10px;
+  	margin-bottom: 30px;
+}
+
+
+.meaning_box p {
+	padding-left: 17px;
+  	width: 97%;
+}
+
+#meaning-move {
 	margin-top: -10px;
 }
 
@@ -207,6 +224,12 @@ h3#traits {
 	margin-left: 350px;
   	margin-top: -75px;
 }
+
+img#arrow_down {
+	margin-top: 10px;
+}
+
+
 
 /*-------------------QUIZ & RESULTS--------------------------*/
 fieldset {
