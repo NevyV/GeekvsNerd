@@ -36,6 +36,11 @@ p {
 	color: #40688b;/*#303f4d*/
 }
 
+#nerdbody{
+	width:39%;
+	margin-top: -10px;
+}
+
 #background {
 	background-image: url("../img/background.png");
 }
@@ -261,7 +266,7 @@ p#label3g {
 
 p#label4g {
 	width: 180px;
-  	margin-top: 220px;
+  	margin-top: 200px;
 }
 
 .nerd_labels p {
@@ -283,20 +288,20 @@ p#label1n {
 p#label2n {
 	position: relative;
   	width: 180px;
-  	margin-top: 250px;
+  	margin-top: 180px;
 }
 
 p#label3n {
 	width: 190px;
   	margin-left: 400px;
-	margin-top: -510px;
+	margin-top: -440px;
   	position: absolute;
 }
 
 p#label4n {
 	width: 115px;
   	margin-left: 430px;
-  	margin-top: -240px;
+  	margin-top: -190px;
 }
 
 #starting_questions {
@@ -316,7 +321,7 @@ p#label4n {
   		translateX(5px) 
   		rotate(27deg);
   	position: absolute;
-  	margin-top: 137px;
+  	margin-top: 30px;
   	margin-left: 140px;
 }
 
@@ -325,25 +330,27 @@ p#label4n {
   	height: 47px;
   	-webkit-transform: translateY(-20px) translateX(5px) rotate(27deg);
   	position: absolute;
-  	margin-top: 177px;
   	margin-left: 340px;
 }
 
 #line3g {
-    width: 142px;
+    width: 82px;
   	height: 47px;
   	-webkit-transform: translateY(-20px) translateX(5px) rotate(-27deg);
   	position: absolute;
-  	margin-top: 17px;
+  	margin-top: -30px;
   	margin-left: 148px;
 }
+
+
+
 
 #line4g {
     width: 102px;
   	height: 47px;
   	-webkit-transform: translateY(-20px) translateX(5px) rotate(-27deg);
   	position: absolute;
-  	margin-top: -153px;
+  	margin-top: 20px;
   	margin-left: 338px;
 }
 
@@ -361,30 +368,29 @@ p#label4n {
 }
 
 #line2n {
-    width: 146px;
+    width: 156px;
   	height: 47px;
   	-webkit-transform: translateY(-20px) translateX(5px) rotate(-27deg);
   	position: absolute;
-  	margin-top: 217px;
+  	margin-top: 0px;
   	margin-left: 150px;
 }
 
 #line3n {
-    width: 216px;
+    width: 176px;
   	height: 47px;
   	-webkit-transform: translateY(-20px) translateX(5px) rotate(-60deg);
   	position: absolute;
-  	margin-top: -423px;
-  	margin-left: 235px;
+  	margin-top: -343px;
+  	margin-left: 245px;
 }
 
 #line4n {
-    width: 86px;
+    width: 95px;
   	height: 47px;
   	-webkit-transform: translateY(-20px) translateX(5px) rotate(27deg);
   	position: absolute;
-  	margin-top: -253px;
-  	margin-left: 361px;
+  	margin-left: 351px;
 }
 
 /*-------------------QUIZ & RESULTS--------------------------*/

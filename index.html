@@ -102,7 +102,7 @@
 					<div class="c6">
 						<h3 class="center_alignment"><span class="geek">Geek</span></h3>
 						<div id="arrow_left">
-							<img src="img/arrow_left.png" alt="arrow" />
+							<img class="block" src="img/arrow_left.png" alt="arrow" />
 						</div>
 						<div id="photo_frame1">
 							<img src="img/geek_photoframe.png" alt="geek frame" />
@@ -120,7 +120,7 @@
 					<div class="c6">
 						<h3 class="center_alignment"><span class="nerd">Nerd</span></h3>
 						<div id="arrow_right">
-							<img src="img/arrow_right.png" alt="arrow" />
+							<img class="block" src="img/arrow_right.png" alt="arrow" />
 						</div>
 						<div id="photo_frame2">
 							<img src="img/nerd_photoframe.png" alt="geek frame" />
@@ -155,35 +155,51 @@
 						<h3 class="center_alignment"><span class="geek">Geek Traits</span></h3>
 						<img class="geeks" src="img/geekgirl.png" alt="geek girl" />
 						<div class="geek_labels">
-							<div class="linesg" id="line1g"></div>
-							<p class="labelsg" id="label1g">An early adopter.</p>
+							<div class="block">
+								<div class="linesg" id="line4g"></div>
+								<p class="labelsg" id="label1g">An early adopter.</p>
+							</div>
 
-							<div class="linesg" id="line2g"></div>
-							<p class="labelsg" id="label2g">Extreme interest in popular culture.</p>	
+							<div class="block">
+								<div class="linesg" id="line2g"></div>
+								<p class="labelsg" id="label2g">Extreme interest in popular culture.</p>
+							</div>
 
-							<div class="linesg" id="line3g"></div>
-							<p class="labelsg" id="label3g">Wears ironic t-shirts.</p>
-
-							<div class="linesg" id="line4g"></div>
-							<p class="labelsg" id="label4g">A fan of gadgets.</p>	
+							<div class="block">
+								<div class="linesg" id="line1g"></div>
+								<p class="labelsg" id="label3g">Wears ironic t-shirts.</p>
+							</div>
+							
+							
+							<div class="block">
+								<div class="linesg" id="line3g"></div>
+								<p class="labelsg" id="label4g">A fan of gadgets.</p>	
+							</div>
 						</div>	
 					</div>
 
 					<div class="c6 end">
 						<h3 class="center_alignment"><span class="nerd">Nerd Traits</span></h3>
-						<img class="geeks" src="img/nerdboy2.png" alt="nerd boy" />
+						<img id="nerdbody" src="img/nerdboy.png" alt="nerd boy" />
 						<div class="nerd_labels">
-							<div class="linesn" id="line1n"></div>
-							<p class="labelsn" id="label1n">Introverted.</p>
+							<div class="block">
+								<div class="linesn" id="line1n"></div>
+								<p class="labelsn" id="label1n">Introverted.</p>
+							</div>
 
-							<div class="linesn" id="line2n"></div>
-							<p class="labelsn" id="label2n">Extreme interest in academics.</p>	
+							<div class="block">
+								<div class="linesn" id="line2n"></div>
+								<p class="labelsn" id="label2n">Extreme interest in academics.</p>
+							</div>	
 
-							<div class="linesn" id="line3n"></div>
-							<p class="labelsn" id="label3n">Wears button down shirts.</p>
+							<div class="linesn block" id="line3n"></div>
+							<p class="labelsn block" id="label3n">Wears button down shirts.</p>
+							
 
-							<div class="linesn" id="line4n"></div>
-							<p class="labelsn" id="label4n">Socially awkward.</p>	
+							<div class="block">
+								<div class="linesn" id="line4n"></div>
+								<p class="labelsn" id="label4n">Socially awkward.</p>	
+							</div>
 						</div>
 					</div>
 				</div>
@@ -382,6 +398,10 @@
 			</div>
 		</div>
 	</div>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/jquery.smoove.js"></script>
+    <script>$('.block').smoove({offset:'40%'});</script>
 
 	<div id="footer_section">
 		<div class="grid">
