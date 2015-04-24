@@ -54,6 +54,14 @@ p {
 	width:35%;
 }
 
+#banner_arrow{
+	margin-top: -278px;
+}
+
+#scroll_arrow:focus {
+	outline: 0;
+}
+
 /*-------------------SECTIONS--------------------------*/
 /*#section1 {
 	background-color: #ccbfae;
