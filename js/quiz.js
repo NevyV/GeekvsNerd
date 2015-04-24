@@ -6,171 +6,250 @@ function outcome()
 	{
 		var contentDiv = document.getElementById('geek_result');
 	    var img = document.createElement('img');
-	    var textarea = document.createElement('textarea');
 	    var btn = document.getElementById('result-btn');
-	    
+	   	var br = document.createElement('br');
+
 	    var fb_btn = document.createElement('button');
-		var fb_i = document.createElement('i');
+		var fb_icon = document.createElement('i');
+		var fb_link = document.createElement('a');
+
 	    var twit_btn = document.createElement('button');
-	    var twit_i = document.createElement('i');
-	    var google_btn = document.createElement('button');
-	    var google_i = document.createElement('i');
-	    var br = document.createElement('br');
+	    var twit_icon = document.createElement('i');
+	    var twit_link = document.createElement('a');
 	    
+	    var tum_btn = document.createElement('button');
+	    var tum_icon = document.createElement('i');
+	    var tum_link = document.createElement('a');	    
 	    
+
 	    img.src = './img/geekfemale_badge.png';
 	    img.style.margin = '0px';
-	    textarea.textContent = 'www.google.com';
 	    btn.style.display = 'none';
 	    
+
+	    fb_link.setAttribute('href', 'https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgoogle.com');
+	    fb_link.setAttribute('target', '_blank');
 	    fb_btn.setAttribute('class', 'fb-btn');
-	    fb_i.setAttribute('class', 'fa fa-facebook');
+	    fb_icon.setAttribute('class', 'fa fa-facebook');
+
+
+	    twit_link.setAttribute('href', 'https://twitter.com/intent/tweet?url=https://www.google.com/&text=Take%20the%20Geeks%20vs%20Nerds%20quiz!');
+	    twit_link.setAttribute('target', '_blank');
 	    twit_btn.setAttribute('class', 'twit-btn');
-	    twit_i.setAttribute('class', 'fa fa-twitter');
-	    google_btn.setAttribute('class', 'google-btn');
-	    google_i.setAttribute('class', 'fa fa-google');
+	    twit_icon.setAttribute('class', 'fa fa-twitter');
 
-	    
+
+	    tum_link.setAttribute('href', 'http://www.tumblr.com/share?v=3&u=https://www.google.com/&t=Geeks%20vs%20Nerds%20Quiz!&s=');
+	    tum_link.setAttribute('target', '_blank');
+	    tum_btn.setAttribute('class', 'tum-btn');
+	    tum_icon.setAttribute('class', 'fa fa-tumblr');
+
+
+	    fb_icon.textContent = ' Facebook';
+	    fb_btn.appendChild(fb_icon);
+	    twit_icon.textContent = ' Twitter';
+	    twit_btn.appendChild(twit_icon);
+	    tum_icon.textContent = ' Tumblr';
+	    tum_btn.appendChild(tum_icon);
+
+
+	    fb_link.appendChild(fb_btn);
+	    twit_link.appendChild(twit_btn);
+	    tum_link.appendChild(tum_btn);
+
+
 	    contentDiv.appendChild(img);
-	    contentDiv.appendChild(textarea);
-	   	contentDiv.appendChild(br);
-
-	    contentDiv.appendChild(fb_btn);
-	    contentDiv.appendChild(twit_btn);
-	    contentDiv.appendChild(google_btn);
-	    fb_btn.appendChild(fb_i);
-	    fb_i.textContent = ' Facebook';
-	    twit_btn.appendChild(twit_i);
-	    twit_i.textContent = ' Twitter';
-	    google_btn.appendChild(google_i);
-	    google_i.textContent = ' Google Plus';
+	    contentDiv.appendChild(br);
+	    contentDiv.appendChild(fb_link);
+	    contentDiv.appendChild(twit_link);
+	    contentDiv.appendChild(tum_link);
 	}
 	else if(outcome == 2)
 	{
 		var contentDiv = document.getElementById('geek_result');
-	    var text = document.createElement('h4');
 	    var img = document.createElement('img');
-	    var textarea = document.createElement('textarea');
 	    var btn = document.getElementById('result-btn');
+	   	var br = document.createElement('br');
 
 	    var fb_btn = document.createElement('button');
-		var fb_i = document.createElement('i');
+		var fb_icon = document.createElement('i');
+		var fb_link = document.createElement('a');
+
 	    var twit_btn = document.createElement('button');
-	    var twit_i = document.createElement('i');
-	    var google_btn = document.createElement('button');
-	    var google_i = document.createElement('i');
-	    var br = document.createElement('br');
+	    var twit_icon = document.createElement('i');
+	    var twit_link = document.createElement('a');
 	    
+	    var tum_btn = document.createElement('button');
+	    var tum_icon = document.createElement('i');
+	    var tum_link = document.createElement('a');
+	    
+
 	    img.src = './img/geekmale_badge.png';
 	    img.style.margin = '0px';
-	    textarea.textContent = 'www.google.com';
 	    btn.style.display = 'none';
 
+
+	    fb_link.setAttribute('href', 'https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgoogle.com');
+	    fb_link.setAttribute('target', '_blank');
 	    fb_btn.setAttribute('class', 'fb-btn');
-	    fb_i.setAttribute('class', 'fa fa-facebook');
+	    fb_icon.setAttribute('class', 'fa fa-facebook');
+
+
+	    twit_link.setAttribute('href', 'https://twitter.com/intent/tweet?url=https://www.google.com/&text=Take%20the%20Geeks%20vs%20Nerds%20quiz!');
+	    twit_link.setAttribute('target', '_blank');
 	    twit_btn.setAttribute('class', 'twit-btn');
-	    twit_i.setAttribute('class', 'fa fa-twitter');
-	    google_btn.setAttribute('class', 'google-btn');
-	    google_i.setAttribute('class', 'fa fa-google');
+	    twit_icon.setAttribute('class', 'fa fa-twitter');
+
+
+	    tum_link.setAttribute('href', 'http://www.tumblr.com/share?v=3&u=https://www.google.com/&t=Geeks%20vs%20Nerds%20Quiz!&s=');
+	    tum_link.setAttribute('target', '_blank');
+	    tum_btn.setAttribute('class', 'tum-btn');
+	    tum_icon.setAttribute('class', 'fa fa-tumblr');
+
+
+	    fb_icon.textContent = ' Facebook';
+	    fb_btn.appendChild(fb_icon);
+	    twit_icon.textContent = ' Twitter';
+	    twit_btn.appendChild(twit_icon);
+	    tum_icon.textContent = ' Tumblr';
+	    tum_btn.appendChild(tum_icon);
+
+
+	    fb_link.appendChild(fb_btn);
+	    twit_link.appendChild(twit_btn);
+	    tum_link.appendChild(tum_btn);
+
 
 	    contentDiv.appendChild(img);
-	    contentDiv.appendChild(textarea);
 	    contentDiv.appendChild(br);
-
-	    contentDiv.appendChild(fb_btn);
-	    contentDiv.appendChild(twit_btn);
-	    contentDiv.appendChild(google_btn);
-	    fb_btn.appendChild(fb_i);
-	    fb_i.textContent = ' Facebook';
-	    twit_btn.appendChild(twit_i);
-	    twit_i.textContent = ' Twitter';
-	    google_btn.appendChild(google_i);
-	    google_i.textContent = ' Google Plus';
+	    contentDiv.appendChild(fb_link);
+	    contentDiv.appendChild(twit_link);
+	    contentDiv.appendChild(tum_link);
 	}
 		else if(outcome == 3)
 	{
 		var contentDiv = document.getElementById('nerd_result');
-	    var text = document.createElement('h4');
 	    var img = document.createElement('img');
-	    var textarea = document.createElement('textarea');
 	    var btn = document.getElementById('result-btn');
+	   	var br = document.createElement('br');
 
 	    var fb_btn = document.createElement('button');
-		var fb_i = document.createElement('i');
+		var fb_icon = document.createElement('i');
+		var fb_link = document.createElement('a');
+
 	    var twit_btn = document.createElement('button');
-	    var twit_i = document.createElement('i');
-	    var google_btn = document.createElement('button');
-	    var google_i = document.createElement('i');
-	    var br = document.createElement('br');
+	    var twit_icon = document.createElement('i');
+	    var twit_link = document.createElement('a');
+	    
+	    var tum_btn = document.createElement('button');
+	    var tum_icon = document.createElement('i');
+	    var tum_link = document.createElement('a');
+
 	    
 	    img.src = './img/nerdfemale_badge.png';
 	    img.style.margin = '0px';
-	    textarea.textContent = 'www.google.com';
 	    btn.style.display = 'none';
 
+
+	    fb_link.setAttribute('href', 'https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgoogle.com');
+	    fb_link.setAttribute('target', '_blank');
 	    fb_btn.setAttribute('class', 'fb-btn');
-	    fb_i.setAttribute('class', 'fa fa-facebook');
+	    fb_icon.setAttribute('class', 'fa fa-facebook');
+
+
+	    twit_link.setAttribute('href', 'https://twitter.com/intent/tweet?url=https://www.google.com/&text=Take%20the%20Geeks%20vs%20Nerds%20quiz!');
+	    twit_link.setAttribute('target', '_blank');
 	    twit_btn.setAttribute('class', 'twit-btn');
-	    twit_i.setAttribute('class', 'fa fa-twitter');
-	    google_btn.setAttribute('class', 'google-btn');
-	    google_i.setAttribute('class', 'fa fa-google');
+	    twit_icon.setAttribute('class', 'fa fa-twitter');
+
+
+	    tum_link.setAttribute('href', 'http://www.tumblr.com/share?v=3&u=https://www.google.com/&t=Geeks%20vs%20Nerds%20Quiz!&s=');
+	    tum_link.setAttribute('target', '_blank');
+	    tum_btn.setAttribute('class', 'tum-btn');
+	    tum_icon.setAttribute('class', 'fa fa-tumblr');
+
+
+	    fb_icon.textContent = ' Facebook';
+	    fb_btn.appendChild(fb_icon);
+	    twit_icon.textContent = ' Twitter';
+	    twit_btn.appendChild(twit_icon);
+	    tum_icon.textContent = ' Tumblr';
+	    tum_btn.appendChild(tum_icon);
+
+
+	    fb_link.appendChild(fb_btn);
+	    twit_link.appendChild(twit_btn);
+	    tum_link.appendChild(tum_btn);
+
 
 	    contentDiv.appendChild(img);
-	    contentDiv.appendChild(textarea);
 	    contentDiv.appendChild(br);
-
-	    contentDiv.appendChild(fb_btn);
-	    contentDiv.appendChild(twit_btn);
-	    contentDiv.appendChild(google_btn);
-	    fb_btn.appendChild(fb_i);
-	    fb_i.textContent = ' Facebook';
-	    twit_btn.appendChild(twit_i);
-	    twit_i.textContent = ' Twitter';
-	    google_btn.appendChild(google_i);
-	    google_i.textContent = ' Google Plus';
+	    contentDiv.appendChild(fb_link);
+	    contentDiv.appendChild(twit_link);
+	    contentDiv.appendChild(tum_link);
 
 	}
 	else if(outcome == 4)
 	{
 		var contentDiv = document.getElementById('nerd_result');
-	    var text = document.createElement('h4');
 	    var img = document.createElement('img');
-	    var textarea = document.createElement('textarea');
 	    var btn = document.getElementById('result-btn');
+	   	var br = document.createElement('br');
 
 	    var fb_btn = document.createElement('button');
-		var fb_i = document.createElement('i');
+		var fb_icon = document.createElement('i');
+		var fb_link = document.createElement('a');
+
 	    var twit_btn = document.createElement('button');
-	    var twit_i = document.createElement('i');
-	    var google_btn = document.createElement('button');
-	    var google_i = document.createElement('i');
-	    var br = document.createElement('br');
+	    var twit_icon = document.createElement('i');
+	    var twit_link = document.createElement('a');
 	    
+	    var tum_btn = document.createElement('button');
+	    var tum_icon = document.createElement('i');
+	    var tum_link = document.createElement('a');
+	    
+
 	    img.src = './img/nerdmale_badge.png';
 	    img.style.margin = '0px';
-	    textarea.textContent = 'www.google.com';
 	    btn.style.display = 'none';
 
+
+	    fb_link.setAttribute('href', 'https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgoogle.com');
+	    fb_link.setAttribute('target', '_blank');
 	    fb_btn.setAttribute('class', 'fb-btn');
-	    fb_i.setAttribute('class', 'fa fa-facebook');
+	    fb_icon.setAttribute('class', 'fa fa-facebook');
+
+
+	    twit_link.setAttribute('href', 'https://twitter.com/intent/tweet?url=https://www.google.com/&text=Take%20the%20Geeks%20vs%20Nerds%20quiz!');
+	    twit_link.setAttribute('target', '_blank');
 	    twit_btn.setAttribute('class', 'twit-btn');
-	    twit_i.setAttribute('class', 'fa fa-twitter');
-	    google_btn.setAttribute('class', 'google-btn');
-	    google_i.setAttribute('class', 'fa fa-google');
+	    twit_icon.setAttribute('class', 'fa fa-twitter');
+
+
+	    tum_link.setAttribute('href', 'http://www.tumblr.com/share?v=3&u=https://www.google.com/&t=Geeks%20vs%20Nerds%20Quiz!&s=');
+	    tum_link.setAttribute('target', '_blank');
+	    tum_btn.setAttribute('class', 'tum-btn');
+	    tum_icon.setAttribute('class', 'fa fa-tumblr');
+
+
+	    fb_icon.textContent = ' Facebook';
+	    fb_btn.appendChild(fb_icon);
+	    twit_icon.textContent = ' Twitter';
+	    twit_btn.appendChild(twit_icon);
+	    tum_icon.textContent = ' Tumblr';
+	    tum_btn.appendChild(tum_icon);
+
+
+	    fb_link.appendChild(fb_btn);
+	    twit_link.appendChild(twit_btn);
+	    tum_link.appendChild(tum_btn);
+
 
 	    contentDiv.appendChild(img);
-	    contentDiv.appendChild(textarea);
 	    contentDiv.appendChild(br);
-
-	    contentDiv.appendChild(fb_btn);
-	    contentDiv.appendChild(twit_btn);
-	    contentDiv.appendChild(google_btn);
-	    fb_btn.appendChild(fb_i);
-	    fb_i.textContent = ' Facebook';
-	    twit_btn.appendChild(twit_i);
-	    twit_i.textContent = ' Twitter';
-	    google_btn.appendChild(google_i);
-	    google_i.textContent = ' Google Plus';
+	    contentDiv.appendChild(fb_link);
+	    contentDiv.appendChild(twit_link);
+	    contentDiv.appendChild(tum_link);
 	}
 
 }
