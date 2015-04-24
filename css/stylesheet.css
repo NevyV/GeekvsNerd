@@ -137,14 +137,14 @@ ul li a:focus {
 
 /*-------------------Definition--------------------------*/
 
-#intro {
+.intro {
 	margin-top: 170px;
 	background-color: #fff;
 	border-radius: 1em;
 	height: 190px;
 }
 
-#intro #inside_border  {
+.intro .inside_border  {
 	border: 6px solid #c96156;
 	border-radius: 1em;
 	margin-top: 15px;
@@ -152,17 +152,17 @@ ul li a:focus {
   	width: 100%;
 }
 
-#intro #inside_border p {
+.intro .inside_border p {
 	padding-left: 19px;
 	width: 100%;
 }
 
-#question_mark {
+.question_mark {
 	position: absolute;
 	width: 100%;
 }
 
-#question_mark img {
+.question_mark img {
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: -60px;
