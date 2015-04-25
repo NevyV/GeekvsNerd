@@ -21,26 +21,35 @@ function outcome()
 	    var tum_icon = document.createElement('i');
 	    var tum_link = document.createElement('a');	    
 	    
+	    var fbPopUp = function() {
+	    	window.open('https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgoogle.com', '_blank', 'toolbar=yes, scrollbars=yes, resizable=yes, top=0, left=0, width=700, height=500');
+	    }
+
+	    var twitPopUp = function() {
+	    	window.open('https://twitter.com/intent/tweet?url=https://www.google.com/&text=Take%20the%20Geeks%20vs%20Nerds%20quiz!', '_blank', 'toolbar=yes, scrollbars=yes, resizable=yes, top=0, left=0, width=700, height=500');
+	    }
+
+	    var tumPopUp = function() {
+	    	window.open('http://www.tumblr.com/share?v=3&u=https://www.google.com/&t=Geeks%20vs%20Nerds%20Quiz!&s=', '_blank', 'toolbar=yes, scrollbars=yes, resizable=yes, top=0, left=0, width=700, height=500');
+	    }
+
 
 	    img.src = './img/geekfemale_badge.png';
 	    img.style.margin = '0px';
 	    btn.style.display = 'none';
 	    
 
-	    fb_link.setAttribute('href', 'https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgoogle.com');
-	    fb_link.setAttribute('target', '_blank');
+	    fb_link.addEventListener('click', fbPopUp);
 	    fb_btn.setAttribute('class', 'fb-btn');
 	    fb_icon.setAttribute('class', 'fa fa-facebook');
 
 
-	    twit_link.setAttribute('href', 'https://twitter.com/intent/tweet?url=https://www.google.com/&text=Take%20the%20Geeks%20vs%20Nerds%20quiz!');
-	    twit_link.setAttribute('target', '_blank');
+	    twit_link.addEventListener('click', twitPopUp);
 	    twit_btn.setAttribute('class', 'twit-btn');
 	    twit_icon.setAttribute('class', 'fa fa-twitter');
 
 
-	    tum_link.setAttribute('href', 'http://www.tumblr.com/share?v=3&u=https://www.google.com/&t=Geeks%20vs%20Nerds%20Quiz!&s=');
-	    tum_link.setAttribute('target', '_blank');
+	    tum_link.addEventListener('click', tumPopUp);
 	    tum_btn.setAttribute('class', 'tum-btn');
 	    tum_icon.setAttribute('class', 'fa fa-tumblr');
 
@@ -83,26 +92,35 @@ function outcome()
 	    var tum_icon = document.createElement('i');
 	    var tum_link = document.createElement('a');
 	    
+	    var fbPopUp = function() {
+	    	window.open('https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgoogle.com', '_blank', 'toolbar=yes, scrollbars=yes, resizable=yes, top=0, left=0, width=700, height=500');
+	    }
+
+	    var twitPopUp = function() {
+	    	window.open('https://twitter.com/intent/tweet?url=https://www.google.com/&text=Take%20the%20Geeks%20vs%20Nerds%20quiz!', '_blank', 'toolbar=yes, scrollbars=yes, resizable=yes, top=0, left=0, width=700, height=500');
+	    }
+
+	    var tumPopUp = function() {
+	    	window.open('http://www.tumblr.com/share?v=3&u=https://www.google.com/&t=Geeks%20vs%20Nerds%20Quiz!&s=', '_blank', 'toolbar=yes, scrollbars=yes, resizable=yes, top=0, left=0, width=700, height=500');
+	    }
+
 
 	    img.src = './img/geekmale_badge.png';
 	    img.style.margin = '0px';
 	    btn.style.display = 'none';
 
 
-	    fb_link.setAttribute('href', 'https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgoogle.com');
-	    fb_link.setAttribute('target', '_blank');
+	    fb_link.addEventListener('click', fbPopUp);
 	    fb_btn.setAttribute('class', 'fb-btn');
 	    fb_icon.setAttribute('class', 'fa fa-facebook');
 
 
-	    twit_link.setAttribute('href', 'https://twitter.com/intent/tweet?url=https://www.google.com/&text=Take%20the%20Geeks%20vs%20Nerds%20quiz!');
-	    twit_link.setAttribute('target', '_blank');
+	    twit_link.addEventListener('click', twitPopUp);
 	    twit_btn.setAttribute('class', 'twit-btn');
 	    twit_icon.setAttribute('class', 'fa fa-twitter');
 
 
-	    tum_link.setAttribute('href', 'http://www.tumblr.com/share?v=3&u=https://www.google.com/&t=Geeks%20vs%20Nerds%20Quiz!&s=');
-	    tum_link.setAttribute('target', '_blank');
+	    tum_link.addEventListener('click', tumPopUp);
 	    tum_btn.setAttribute('class', 'tum-btn');
 	    tum_icon.setAttribute('class', 'fa fa-tumblr');
 
@@ -125,6 +143,8 @@ function outcome()
 	    contentDiv.appendChild(fb_link);
 	    contentDiv.appendChild(twit_link);
 	    contentDiv.appendChild(tum_link);
+
+
 	}
 		else if(outcome == 3)
 	{
@@ -145,26 +165,35 @@ function outcome()
 	    var tum_icon = document.createElement('i');
 	    var tum_link = document.createElement('a');
 
-	    
+	    var fbPopUp = function() {
+	    	window.open('https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgoogle.com', '_blank', 'toolbar=yes, scrollbars=yes, resizable=yes, top=0, left=0, width=700, height=500');
+	    }
+
+	    var twitPopUp = function() {
+	    	window.open('https://twitter.com/intent/tweet?url=https://www.google.com/&text=Take%20the%20Geeks%20vs%20Nerds%20quiz!', '_blank', 'toolbar=yes, scrollbars=yes, resizable=yes, top=0, left=0, width=700, height=500');
+	    }
+
+	    var tumPopUp = function() {
+	    	window.open('http://www.tumblr.com/share?v=3&u=https://www.google.com/&t=Geeks%20vs%20Nerds%20Quiz!&s=', '_blank', 'toolbar=yes, scrollbars=yes, resizable=yes, top=0, left=0, width=700, height=500');
+	    }
+
+
 	    img.src = './img/nerdfemale_badge.png';
 	    img.style.margin = '0px';
 	    btn.style.display = 'none';
 
 
-	    fb_link.setAttribute('href', 'https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgoogle.com');
-	    fb_link.setAttribute('target', '_blank');
+	    fb_link.addEventListener('click', fbPopUp);
 	    fb_btn.setAttribute('class', 'fb-btn');
 	    fb_icon.setAttribute('class', 'fa fa-facebook');
 
 
-	    twit_link.setAttribute('href', 'https://twitter.com/intent/tweet?url=https://www.google.com/&text=Take%20the%20Geeks%20vs%20Nerds%20quiz!');
-	    twit_link.setAttribute('target', '_blank');
+	    twit_link.addEventListener('click', twitPopUp);
 	    twit_btn.setAttribute('class', 'twit-btn');
 	    twit_icon.setAttribute('class', 'fa fa-twitter');
 
 
-	    tum_link.setAttribute('href', 'http://www.tumblr.com/share?v=3&u=https://www.google.com/&t=Geeks%20vs%20Nerds%20Quiz!&s=');
-	    tum_link.setAttribute('target', '_blank');
+	    tum_link.addEventListener('click', tumPopUp);
 	    tum_btn.setAttribute('class', 'tum-btn');
 	    tum_icon.setAttribute('class', 'fa fa-tumblr');
 
@@ -208,26 +237,35 @@ function outcome()
 	    var tum_icon = document.createElement('i');
 	    var tum_link = document.createElement('a');
 	    
+	    var fbPopUp = function() {
+	    	window.open('https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgoogle.com', '_blank', 'toolbar=yes, scrollbars=yes, resizable=yes, top=0, left=0, width=700, height=500');
+	    }
 
+	    var twitPopUp = function() {
+	    	window.open('https://twitter.com/intent/tweet?url=https://www.google.com/&text=Take%20the%20Geeks%20vs%20Nerds%20quiz!', '_blank', 'toolbar=yes, scrollbars=yes, resizable=yes, top=0, left=0, width=700, height=500');
+	    }
+
+	    var tumPopUp = function() {
+	    	window.open('http://www.tumblr.com/share?v=3&u=https://www.google.com/&t=Geeks%20vs%20Nerds%20Quiz!&s=', '_blank', 'toolbar=yes, scrollbars=yes, resizable=yes, top=0, left=0, width=700, height=500');
+	    }
+
+	    
 	    img.src = './img/nerdmale_badge.png';
 	    img.style.margin = '0px';
 	    btn.style.display = 'none';
 
 
-	    fb_link.setAttribute('href', 'https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgoogle.com');
-	    fb_link.setAttribute('target', '_blank');
+	    fb_link.addEventListener('click', fbPopUp);
 	    fb_btn.setAttribute('class', 'fb-btn');
 	    fb_icon.setAttribute('class', 'fa fa-facebook');
 
 
-	    twit_link.setAttribute('href', 'https://twitter.com/intent/tweet?url=https://www.google.com/&text=Take%20the%20Geeks%20vs%20Nerds%20quiz!');
-	    twit_link.setAttribute('target', '_blank');
+	    twit_link.addEventListener('click', twitPopUp);
 	    twit_btn.setAttribute('class', 'twit-btn');
 	    twit_icon.setAttribute('class', 'fa fa-twitter');
 
 
-	    tum_link.setAttribute('href', 'http://www.tumblr.com/share?v=3&u=https://www.google.com/&t=Geeks%20vs%20Nerds%20Quiz!&s=');
-	    tum_link.setAttribute('target', '_blank');
+	    tum_link.addEventListener('click', tumPopUp);
 	    tum_btn.setAttribute('class', 'tum-btn');
 	    tum_icon.setAttribute('class', 'fa fa-tumblr');
 
