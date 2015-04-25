@@ -545,7 +545,135 @@ input {
 
 
 
+/*-----------------CHART STATS------------------*/
+#world {
+	margin-top: 120px;
+ 	margin-left: -130px;
+}
+#world1 img {
+	width: 254px;
+}
+
+#world1:hover {
+	cursor: pointer;
+}
+
+#world2 img {
+	margin-top: -95px;
+  	margin-bottom: 70px;
+  	margin-left: 282px;
+}
+
+#world2:hover {
+	cursor: pointer;
+}
+
+.porcentage {
+	color: #f6f2d9;
+	position: absolute;
+	font-size: 2em;
+  	font-weight: 600;
+}
+
+#porcent1 {
+	margin-top: -186px;
+  	margin-left: 290px;
+  	font-size: 3em;
+}
+
+#porcent2 {
+	margin-top: -132px;
+  	margin-left: 310px;
+}
+
+.heads {
+	width: 40%;
+}
+
+img#geekboyhead {
+ 	position: absolute;
+ 	margin-top: -30px;
+  	margin-left: -20px;
+}
+
+img#nerdgirlhead {
+	margin-top: 90px;
+  	margin-left: -20px;
+}
+
+#hoverme {
+	margin-top: 110px;
+  	position: absolute;
+  	margin-left: 30px;
+}
 
 
 
+svg {
+	position: absolute;
+  	margin-left: 203px;
+  	margin-top: 29px;
+}
 
+#vertical_line {
+	margin-left: 24px;
+  	margin-top: 40px;
+}
+
+#bottom_horizontal {
+	margin-top: 360px;
+	margin-left: 270px;
+}
+
+line:nth-child(1) {
+  stroke-dasharray:20px;
+  -webkit-animation: monanimation 1s infinite linear;
+  -moz-animation: monanimation 1s infinite linear;
+}
+
+@-moz-keyframes monanimation {
+    0% {-moz-stroke-dashoffset:0;} /* WTF !? */
+  100% {stroke-dashoffset:-40px;}
+}
+
+@-webkit-keyframes monanimation {
+  0% {stroke-dashoffset:0;}
+  100% {stroke-dashoffset:-40px;}
+}
+
+
+.comfortable_called {
+	background-color: #fff;
+  	height: 130px;
+  	width: 440px;
+  	padding-top: 5px;
+}
+
+.comfortable_called p {
+	padding-left: 120px;
+  	width: 90%;
+}
+
+#called_geek {
+	margin-top: 30px;
+  	margin-left: 110px;
+}
+
+#called_nerd {
+	margin-top: -183px;
+  	margin-left: 110px;
+}
+
+#red {
+	color: #c96156;
+	font-weight: 600;
+}
+
+#blue {
+	color: #40688b;
+	font-weight: 600;
+}
+
+.strong_value {
+	font-weight: 600;
+}

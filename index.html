@@ -10,18 +10,51 @@
 
 	<script src="js/quiz.js" type="text/javascript" ></script>	
 
-	
+
+
 
 	<title>Geek vs Nerd</title>
 
 	<link href="css/gridiculous.css" rel="stylesheet">
 	<link href="css/stylesheet.css" rel="stylesheet">
 
+	<link rel="stylesheet" type="text/css" href="css/tooltipster.css" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.0.min.js"></script>
+    <script type="text/javascript" src="js/jquery.tooltipster.min.js"></script>
+
+    <script src="js/jquery.smoove.js"></script>
+
 	<!-- THIS IS FOR THE SOCIAL MEDIA ICONS -->
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
 	<link href='http://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css' />
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,700' rel='stylesheet' type='text/css' />
+
+
+	<!-- THIS IS FOR THE TOOLTIP IN STATS-->
+	<script>
+        $(document).ready(function() {
+            $('.tooltip-geek').tooltipster({
+            animation: 'grow',
+   			delay: 30,
+		    theme: 'tooltipster-default',
+		    touchDevices: false,
+		    trigger: 'hover'
+        	});
+        });
+    </script>
+
+    <script>
+        $(document).ready(function() {
+            $('.tooltip-nerd').tooltipster({
+            animation: 'grow',
+   			delay: 30,
+		    theme: 'tooltipster-default2',
+		    touchDevices: false,
+		    trigger: 'hover'
+        	});
+        });
+    </script>
 
 	<!-- THIS IS FOR THE PICTURE FRAMES -->
 	<script type="text/javascript">
@@ -54,6 +87,9 @@
 		    });
 		})(jQuery);
 	</script>
+
+
+
 </head>
 <body>
 	<div class="banner" id="top">
@@ -226,7 +262,7 @@
 							<div class="radio_questions">
 								<fieldset>
 									<div class="left_option">
-										<img class="icon" src="img/icons/startrekIcon.png" alt="icon" />
+										<img class="icon" src="img/icons/extrovertIcon.png" alt="icon" />
 										<input type="radio" id='selection-1' name="firstOption" value="extrovert" checked="checked" />
 										<label for='selection-1'>
 											Extrovert
@@ -434,6 +470,75 @@
 					</div>
 				</div>
 
+				<!-- STATS! -->
+				<div class="row">
+					<div class="c6">
+						<svg width="400" height="100" viewPort="0 0 200 300" version="1.1" xmlns="http://www.w3.org/2000/svg">
+
+    						<line stroke-dasharray="5, 5" x1="10" y1="10" x2="390" y2="10" />
+
+    						<style><![CDATA[
+							line{
+							    stroke: black;
+							    stroke-width: 2;
+							}
+							]]></style>
+						</svg>
+
+
+						<svg id="vertical_line" width="400" height="80" viewPort="0 0 200 300" version="1.1" xmlns="http://www.w3.org/2000/svg">
+
+    						<line stroke-dasharray="5, 5" x1="0" y1="19000" x2="190" y2="0" />
+
+    						<style><![CDATA[
+							line{
+							    stroke: black;
+							    stroke-width: 2;
+							}
+							]]></style>
+						</svg>
+
+						<svg id="bottom_horizontal" width="400" height="100" viewPort="0 0 200 300" version="1.1" xmlns="http://www.w3.org/2000/svg">
+
+    						<line stroke-dasharray="5, 5" x1="10" y1="10" x2="320" y2="10" />
+
+    						<style><![CDATA[
+							line{
+							    stroke: black;
+							    stroke-width: 2;
+							}
+							]]></style>
+						</svg>
+						
+						<img class="hover" id="hoverme" src="img/hover.png" alt="hover" />
+
+						<div id="world">
+							<div class="tooltip-geek" title="Identify as a GEEK" id="world1">
+								<img src="img/80porcent.png" alt="stat1" />
+								<p class="porcentage" id="porcent1">80%</p>
+							</div>
+							<div class="tooltip-nerd" title="Identify as a NERD"  id="world2">
+								<img src="img/20porcent.png" alt="stat2" />
+								<p class="porcentage" id="porcent2">20%</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="c6 end">
+						<img class="heads" id="geekboyhead" src="img/geekboyhead.png" alt="geekboy" />
+						
+						<div class="comfortable_called" id="called_geek">
+							<p><span class="strong_value">45&#37;</span> of them would be comfortable being called a <span id="red">GEEK</span></p>
+						</div>
+
+						<img class="heads" id="nerdgirlhead" src="img/nerdgirlhead.png" alt="nerdgirl" />
+
+						<div class="comfortable_called" id="called_nerd">
+							<p><span class="strong_value">15&#37;</span> of them would be comfortable being called a <span id="blue">NERD</span></p>
+						</div>
+					</div>
+				</div>				
+
 				<!-- FOURTH QUESTION! -->
 				<div class="row">
 					<div class="c12">
@@ -493,9 +598,8 @@
 		</div>
 	</div>
 
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="js/jquery.smoove.js"></script>
     <script>$('.block').smoove({offset:'40%'});</script>
+
 
 	<div id="footer_section">
 		<div class="grid">
