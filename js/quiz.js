@@ -298,56 +298,391 @@ function pickOutcome()
 	{
 		if(chosenOption("secondOption") == "yes")
 		{
-			if(chosenOption("thirdOption") == "starwars")
+
+			if(chosenOption("thirdOption") == "desdev")
 			{
-				if(chosenOption("fourthOption") == "female")
+
+				if(chosenOption("fourthOption") == "html")
 				{
-					return 1;
+
+					if(chosenOption("fifthOption") == "starwars")
+					{
+
+						if(chosenOption("sixthOption") == "consolepc")
+						{
+
+							if(chosenOption("seventhOption") == "first2")
+							{
+								if(chosenOption("eightOption") == "female")
+								{
+									return 1;
+								}
+								else if(chosenOption("eigthOption") == "male")
+								{
+									return 2;
+								}
+							}
+
+							else if(chosenOption("seventhOption") == "second2")
+							{
+								if(chosenOption("eightOption") == "female")
+								{
+									return 1;
+								}
+								else if(chosenOption("eightOption") == "male")
+								{
+									return 2;
+								}
+							} 
+						}
+						else if(chosenOption("sixthOption") == "board")
+						{
+
+							if(chosenOption("seventhOption") == "first2")
+							{
+								if(chosenOption("eightOption") == "female")
+								{
+									return 1;
+								}
+								else if(chosenOption("eigthOption") == "male")
+								{
+									return 2;
+								}
+							}
+							else if(chosenOption("seventhOption") == "second2")
+							{
+								if(chosenOption("eightOption") == "female")
+								{
+									return 1;
+								}
+								else if(chosenOption("eightOption") == "male")
+								{
+									return 2;
+								}
+							} 
+						}
+					} 
+					else if(chosenOption("fifthOption") == "startrek")
+					{
+
+						if(chosenOption("sixthOption") == "consolepc")
+						{
+
+							if(chosenOption("seventhOption") == "first2")
+							{
+								if(chosenOption("eightOption") == "female")
+								{
+									return 1;
+								}
+								else if(chosenOption("eigthOption") == "male")
+								{
+									return 2;
+								}
+							}
+
+							else if(chosenOption("seventhOption") == "second2")
+							{
+								if(chosenOption("eightOption") == "female")
+								{
+									return 1;
+								}
+								else if(chosenOption("eightOption") == "male")
+								{
+									return 2;
+								}
+							} 
+						}
+					}
 				}
-				else if(chosenOption("fourthOption") == "male")
+				else if(chosenOption("fourthOption") == "binary")
 				{
-					return 2;
+
+					if(chosenOption("fifthOption") == "starwars")
+					{
+
+						if(chosenOption("sixthOption") == "consolepc")
+						{
+
+							if(chosenOption("seventhOption") == "first2")
+							{
+								if(chosenOption("eightOption") == "female")
+								{
+									return 1;
+								}
+								else if(chosenOption("eigthOption") == "male")
+								{
+									return 2;
+								}
+							}
+
+							else if(chosenOption("seventhOption") == "second2")
+							{
+								if(chosenOption("eightOption") == "female")
+								{
+									return 1;
+								}
+								else if(chosenOption("eightOption") == "male")
+								{
+									return 2;
+								}
+							} 
+						}
+					}
 				}
 			}
-
-			else if(chosenOption("thirdOption") == "startrek")
+			else if(chosenOption("thirdOption") == "cop")
 			{
-				if(chosenOption("fourthOption") == "female")
+				if(chosenOption("fourthOption") == "html")
 				{
-					return 1;
-				}
-				else if(chosenOption("fourthOption") == "male")
-				{
-					return 2;
-				}
-			} 
-		}
 
+					if(chosenOption("fifthOption") == "starwars")
+					{
+
+						if(chosenOption("sixthOption") == "consolepc")
+						{
+
+							if(chosenOption("seventhOption") == "first2")
+							{
+								if(chosenOption("eightOption") == "female")
+								{
+									return 1;
+								}
+								else if(chosenOption("eigthOption") == "male")
+								{
+									return 2;
+								}
+							}
+
+							else if(chosenOption("seventhOption") == "second2")
+							{
+								if(chosenOption("eightOption") == "female")
+								{
+									return 1;
+								}
+								else if(chosenOption("eightOption") == "male")
+								{
+									return 2;
+								}
+							} 
+						}
+					}
+				}
+			}
+		}
 		else if(chosenOption("secondOption") == "no")
 		{
-			if(chosenOption("thirdOption") == "startrek")
+
+			if(chosenOption("thirdOption") == "desdev")
 			{
-				if(chosenOption("fourthOption") == "female")
+
+				if(chosenOption("fourthOption") == "html")
 				{
-					return 3;
+
+					if(chosenOption("fifthOption") == "starwars")
+					{
+
+						if(chosenOption("sixthOption") == "consolepc")
+						{
+
+							if(chosenOption("seventhOption") == "first2")
+							{
+								if(chosenOption("eightOption") == "female")
+								{
+									return 1;
+								}
+								else if(chosenOption("eigthOption") == "male")
+								{
+									return 2;
+								}
+							}
+
+							else if(chosenOption("seventhOption") == "second2")
+							{
+								if(chosenOption("eightOption") == "female")
+								{
+									return 1;
+								}
+								else if(chosenOption("eightOption") == "male")
+								{
+									return 2;
+								}
+							} 
+						}
+						else if(chosenOption("sixthOption") == "board")
+						{
+
+							if(chosenOption("seventhOption") == "first2")
+							{
+								if(chosenOption("eightOption") == "female")
+								{
+									return 1;
+								}
+								else if(chosenOption("eigthOption") == "male")
+								{
+									return 2;
+								}
+							}
+							else if(chosenOption("seventhOption") == "second2")
+							{
+								if(chosenOption("eightOption") == "female")
+								{
+									return 1;
+								}
+								else if(chosenOption("eightOption") == "male")
+								{
+									return 2;
+								}
+							} 
+						}
+					} 
+					else if(chosenOption("fifthOption") == "startrek")
+					{
+
+						if(chosenOption("sixthOption") == "consolepc")
+						{
+
+							if(chosenOption("seventhOption") == "first2")
+							{
+								if(chosenOption("eightOption") == "female")
+								{
+									return 1;
+								}
+								else if(chosenOption("eigthOption") == "male")
+								{
+									return 2;
+								}
+							}
+
+							else if(chosenOption("seventhOption") == "second2")
+							{
+								if(chosenOption("eightOption") == "female")
+								{
+									return 1;
+								}
+								else if(chosenOption("eightOption") == "male")
+								{
+									return 2;
+								}
+							} 
+						}
+					}
 				}
-				else if(chosenOption("fourthOption") == "male")
+				else if(chosenOption("fourthOption") == "binary")
 				{
-					return 4;
+
+					if(chosenOption("fifthOption") == "starwars")
+					{
+
+						if(chosenOption("sixthOption") == "consolepc")
+						{
+
+							if(chosenOption("seventhOption") == "first2")
+							{
+								if(chosenOption("eightOption") == "female")
+								{
+									return 1;
+								}
+								else if(chosenOption("eigthOption") == "male")
+								{
+									return 2;
+								}
+							}
+
+							else if(chosenOption("seventhOption") == "second2")
+							{
+								if(chosenOption("eightOption") == "female")
+								{
+									return 1;
+								}
+								else if(chosenOption("eightOption") == "male")
+								{
+									return 2;
+								}
+							} 
+						}
+					}
 				}
 			}
-			else if(chosenOption("thirdOption") == "starwars")
+			else if(chosenOption("thirdOption") == "cop")
 			{
-				if(chosenOption("fourthOption") == "female")
+				if(chosenOption("fourthOption") == "html")
 				{
-					return 1;
-				}
-				else if(chosenOption("fourthOption") == "male")
-				{
-					return 2;
+
+					if(chosenOption("fifthOption") == "starwars")
+					{
+
+						if(chosenOption("sixthOption") == "consolepc")
+						{
+
+							if(chosenOption("seventhOption") == "first2")
+							{
+								if(chosenOption("eightOption") == "female")
+								{
+									return 1;
+								}
+								else if(chosenOption("eigthOption") == "male")
+								{
+									return 2;
+								}
+							}
+
+							else if(chosenOption("seventhOption") == "second2")
+							{
+								if(chosenOption("eightOption") == "female")
+								{
+									return 1;
+								}
+								else if(chosenOption("eightOption") == "male")
+								{
+									return 2;
+								}
+							} 
+						}
+					}
 				}
 			}
-		}  
+		}
+		else if(chosenOption("secondOption") == "no")
+		{
+
+			if(chosenOption("thirdOption") == "cop")
+			{
+
+				if(chosenOption("fourthOption") == "binary")
+				{
+
+					if(chosenOption("fifthOption") == "startrek")
+					{
+
+						if(chosenOption("sixthOption") == "board")
+						{
+							if(chosenOption("seventhOption") == "second2")
+							{
+								if(chosenOption("eightOption") == "female")
+								{
+									return 3;
+								}
+								else if(chosenOption("eightOption") == "male")
+								{
+									return 4;
+								}
+							}
+							else if(chosenOption("seventhOption") == "first2")
+							{
+								if(chosenOption("eightOption") == "female")
+								{
+									return 3;
+								}
+								else if(chosenOption("eightOption") == "male")
+								{
+									return 4;
+								}
+							}
+						}
+					}
+				}
+			}
+		}    
 	}
 	else if(chosenOption("firstOption") == "introvert")
 	{
