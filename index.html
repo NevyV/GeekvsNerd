@@ -100,7 +100,7 @@
 					<h2>Which One Are You</h2>
 					<img id="peekaboo" src="img/nerdgeek1.png" alt="geek peeking" />
 					<a href="#start_of_intro" id="scroll_arrow">
-						<img id="banner_arrow" src="img/white_arrow_down.png" alt="button" />
+						<img id="banner_arrow" class="smaller_arrow" src="img/white_arrow_down.png" alt="button" />
 					</a>
 				</div>
 			</div> 
@@ -118,8 +118,9 @@
 							<li><a href="#section1">Definitions</a></li>
 							<li><a href="#section2">Traits</a></li>
 							<li><a href="#section3">Jobs</a></li>
-							<li><a href="#section4">Interests</a></li>
-							<li><a href="#section6">Stats</a></li>
+							<li><a href="#section4">Love</a></li>
+							<li><a href="#section5">Movies/Games</a></li>
+							<li><a href="#section6">Facts</a></li>
 
 						</ul>
 					</nav>
@@ -151,9 +152,9 @@
 						<div id="meaning1">
 							<img id="arrow_down" src="img/arrow_down.png" alt="arrow" />
 							<div class="meaning_box">
-								<p>An enthusiast of a particular topic or field. Geeks are generally very knowledgeable—even to the point of obsession—about a particular topic.</p>
+								<p>An enthusiast of a particular topic or field. <span class="red">Geeks</span> are generally very knowledgeable—even to the point of obsession—about a particular topic.</p>
 
-								<p>It's important to note that geeks are generally social. They have their fascination in what makes them unique, but you probably wouldn't know of their geekitude unless they told you about it.</p>
+								<p>It's important to note that they are generally social. They have their fascination in what makes them unique, but you probably wouldn't know of their geekitude unless they told you about it.</p>
 							</div>
 						</div>
 					</div>
@@ -169,7 +170,7 @@
 						<div id="meaning2">
 							<img src="img/arrow_down.png" alt="arrow" />
 							<div class="meaning_box" id="meaning-move">
-								<p>A studious intellectual, although again of a particular topic or field. Nerds are “achievement” oriented, and focus their efforts on acquiring knowledge and skill over trivia and memorabilia.</p>
+								<p>A studious intellectual, although again of a particular topic or field. <span class="blue">Nerds</span> are “achievement” oriented, and focus their efforts on acquiring knowledge and skill over trivia and memorabilia.</p>
 
 								<p>The general connotation is of an irritating, unattractive person who may be brilliant, but chooses to focus on non-social pursuits.</p>
 							</div>
@@ -247,69 +248,68 @@
 
 				<!-- FIRST QUESTION! -->
 				<div class="row">
-					<div class="c12" id="starting_questions">
-						<div class="question">
-							<h4>Do you identify yourself as a:</h4>
+					<div class="c6" id="starting_questions">
+						<img class="star" src="img/star1.png" alt="star" />
+
+						<div class="question-answers">
+							<div class="question">
+								<h4>Do you identify yourself as a:</h4>
+							</div>
+
+							<!-- FIRST QUESTION ANSWERS! -->
+							<form>
+								<div class="radio_questions">
+									<fieldset>
+										<div class="left_option">
+											<img class="icon" src="img/icons/extrovertIcon.png" alt="icon" />
+											<input type="radio" id='selection-1' name="firstOption" value="extrovert" checked="checked" />
+											<label for='selection-1'>
+												Extrovert
+											</label>
+										</div>
+										<div class="right_option">
+											<img class="icon" src="img/icons/introvertIcon.png" alt="icon" />
+											<input type="radio" id='selection-2' name="firstOption" value="introvert" />
+											<label for='selection-2'>
+												Introvert
+											</label>
+										</div>
+									</fieldset>
+								</div>
+							</form>
 						</div>
 					</div>
 				</div>
 
-				<!-- FIRST QUESTION ANSWERS! -->
-				<!-- ADDED  OPTION TO SELECT WORD TO FILL RADIO -->
-				<div class="row">
-					<div class="c12">
-						<form>
-							<div class="radio_questions">
-								<fieldset>
-									<div class="left_option">
-										<img class="icon" src="img/icons/extrovertIcon.png" alt="icon" />
-										<input type="radio" id='selection-1' name="firstOption" value="extrovert" checked="checked" />
-										<label for='selection-1'>
-											Extrovert
-										</label>
-									</div>
-									<div class="right_option">
-										<img class="icon" src="img/icons/introvertIcon.png" alt="icon" />
-										<input type="radio" id='selection-2' name="firstOption" value="introvert" />
-										<label for='selection-2'>
-											Introvert
-										</label>
-									</div>
-								</fieldset>
-							</div>
-						</form>
-					</div>					
-				</div>
-
-
 				<!-- SECOND QUESTION! -->
 				<div class="row">
-					<div class="question">
-						<h4>Do you easily get obsessed with pop culture?</h4>
-					</div>	
-				</div>
-				
-				<!-- SECOND QUESTION ANSWERS! -->
-				<!-- ADDED  OPTION TO SELECT WORD TO FILL RADIO -->
-				<div class="row">
-					<div class="c12">
-						<form>
-							<div class="radio_questions">
-								<fieldset>
-									<div class="left_option">
-										<img class="icon" src="img/icons/nopopIcon.png" alt="icon" />
-										<input type="radio" id='selection-3' name="secondOption" value="no" checked="checked" />
-										<label for='selection-3'>No</label>
-									</div>
-									<div class="right_option">
-										<img class="icon" src="img/icons/popIcon.png" alt="icon" />
-										<input type="radio" id='selection-4' name="secondOption" value="yes" />
-										<label for='selection-4'>Yes</label>
-									</div>
-								</fieldset>	
+					<div class= "c6 end right_question" >
+						<img class="star" src="img/star2.png" alt="star" />
+
+						<div class="question-answers">
+							<div class="question">
+								<h4>Do you get obsessed with pop culture?</h4>
 							</div>
-						</form>
-					</div>
+
+							<!-- SECOND QUESTION ANSWERS! -->
+							<form>
+								<div class="radio_questions">
+									<fieldset>
+										<div class="left_option">
+											<img class="icon" src="img/icons/nopopIcon.png" alt="icon" />
+											<input type="radio" id='selection-3' name="secondOption" value="no" checked="checked" />
+											<label for='selection-3'>No</label>
+										</div>
+										<div class="right_option">
+											<img class="icon" src="img/icons/popIcon.png" alt="icon" />
+											<input type="radio" id='selection-4' name="secondOption" value="yes" />
+											<label for='selection-4'>Yes</label>
+										</div>
+									</fieldset>	
+								</div>
+							</form>
+						</div>
+					</div>	
 				</div>
 			</div>
 		</div>
@@ -409,77 +409,73 @@
 
 				<!-- THIRD QUESTION! -->
 				<div class="row">
-					<div class="c12">
-						<div class="question">						
-							<h4>Which movie do you like most?</h4>
-						</div>
-					</div>
-				</div>
+					<div class="c6">
+						<img class="star" src="img/star3.png" alt="star" />
 
-				<!-- THIRD QUESTION ANSWERS! -->
-				<!-- ADDED  OPTION TO SELECT WORD TO FILL RADIO -->
-				<div class="row">
-					<div class="c12">
-						<form>
-							<div class="radio_questions">
-							<fieldset>
-								<div class="left_option">
-									<img class="icon" src="img/icons/startrekIcon.png" alt="icon" />
-									<input type="radio" id='selection-5' name="thirdOption" value="startrek" checked="checked" />
-									<label for='selection-5'>
-										<!-- Star Trek --> The Avengers
-									</label>
-								</div>
-								<div class="right_option">
-									<img class="icon" src="img/icons/starwarsIcon.png" alt="icon" />
-									<input type="radio" id='selection-6' name="thirdOption" value="starwars" />
-									<label for='selection-6'>
-										<!-- Star Wars --> Interstellar
-									</label>
-								</div>
-							</fieldset>	
+						<div class="question-answers">						
+							<div class="question">						
+								<h4>Which movie do you like most?</h4>
 							</div>
-						</form>
+
+							<!-- THIRD QUESTION ANSWERS! -->
+							<form>
+								<div class="radio_questions">
+								<fieldset>
+									<div class="left_option">
+										<img class="icon" src="img/icons/startrekIcon.png" alt="icon" />
+										<input type="radio" id='selection-5' name="thirdOption" value="startrek" checked="checked" />
+										<label for='selection-5'>
+											Star Trek
+										</label>
+									</div>
+									<div class="right_option">
+										<img class="icon" src="img/icons/starwarsIcon.png" alt="icon" />
+										<input type="radio" id='selection-6' name="thirdOption" value="starwars" />
+										<label for='selection-6'>
+											Star Wars
+										</label>
+									</div>
+								</fieldset>	
+								</div>
+							</form>
+						</div>
 					</div>
 				</div>
 
 
 				<!-- ADDED THIS GAMES SECTION -->
 				<div class="row">
-					<div class="c12">
-						<div class="question">						
-							<h4>Which game do you prefer?</h4>
+					<div class="c6 end right_question">
+						<img class="star" src="img/star4.png" alt="star" />
+
+						<div class="question-answers">							
+							<div class="question">						
+								<h4>Which style of game do you prefer?</h4>
+							</div>
+							<!-- THIRD QUESTION ANSWERS! -->
+							<form>
+								<div class="radio_questions">
+								<fieldset>
+									<div class="left_option">
+										<img class="icon" src="img/icons/startrekIcon.png" alt="icon" />
+										<input type="radio" id='selection-7' name="thirdOption" value="startrek" checked="checked" />
+										<label for='selection-7'>
+											Board Games
+										</label>
+									</div>
+									<div class="right_option">
+										<img class="icon" src="img/icons/starwarsIcon.png" alt="icon" />
+										<input type="radio" id='selection-8' name="thirdOption" value="starwars" />
+										<label for='selection-8'>
+											Console Games
+										</label>
+									</div>
+								</fieldset>	
+								</div>
+							</form>							
 						</div>
 					</div>
 				</div>
-
-				<!-- THIRD QUESTION ANSWERS! -->
-				<!-- ADDED  OPTION TO SELECT WORD TO FILL RADIO -->
-				<div class="row">
-					<div class="c12">
-						<form>
-							<div class="radio_questions">
-							<fieldset>
-								<div class="left_option">
-									<img class="icon" src="img/icons/startrekIcon.png" alt="icon" />
-									<input type="radio" id='selection-7' name="thirdOption" value="startrek" checked="checked" />
-									<label for='selection-7'>
-										Halo
-									</label>
-								</div>
-								<div class="right_option">
-									<img class="icon" src="img/icons/starwarsIcon.png" alt="icon" />
-									<input type="radio" id='selection-8' name="thirdOption" value="starwars" />
-									<label for='selection-8'>
-										World of Warcraft
-									</label>
-								</div>
-							</fieldset>	
-							</div>
-						</form>
-					</div>
-				</div> <!-- END OF ADDED GAMES SECTION -->
-
 			</div>
 		</div>
 
@@ -499,12 +495,7 @@
 				<div class="row">
 					<div class="c12">
 						<!-- FINAL STATEMENT -->
-						<h3 class="center_alignment"><span class="geek">Enjoy the differences</span></h3>
-
-						<p>Geeks, nerds, dweebs, dorks, twerps, dolts, and norms all have their niche, and all have something to contribute to this great world of ours. It's fun to laugh and draw out stereotypes, but keep in mind that unless proven otherwise, everybody has value.
-						Keep in mind that most geeks are part nerd, and most nerds are part geek. Sometimes the line between is very fuzzy, and remember these two definitions from the Urban Dictionary
-						Nerd: The person you will one day call "boss"
-						Geek: The people you picked on in high school and wind up working for as an adult.</p>
+						<h3 class="center_alignment"><span class="geek">Some Interesting Facts</span></h3>
 					</div>
 				</div>
 
@@ -566,20 +557,108 @@
 						<img class="heads" id="geekboyhead" src="img/geekboyhead.png" alt="geekboy" />
 						
 						<div class="comfortable_called" id="called_geek">
-							<p><span class="strong_value">45&#37;</span> of them would be comfortable being called a <span id="red">GEEK</span></p>
+							<p><span class="strong_value">45&#37;</span> of them would be comfortable being called a <span class="red">GEEK</span></p>
 						</div>
 
 						<img class="heads" id="nerdgirlhead" src="img/nerdgirlhead.png" alt="nerdgirl" />
 
 						<div class="comfortable_called" id="called_nerd">
-							<p><span class="strong_value">15&#37;</span> of them would be comfortable being called a <span id="blue">NERD</span></p>
+							<p><span class="strong_value">15&#37;</span> of them would be comfortable being called a <span class="blue">NERD</span></p>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="c12" id="losing_files">
+						<div class="question_mark">
+							<img src="img/question_mark.png" alt="question" />
+						</div>
+						<div id="red_border">
+							<p><span class="red">GEEKS</span>, and <span class="blue">NERDS</span> admit they will be more stressed out by losing their files on their computer's hard drive, such as photos, music files, or documents, than going through a break up or getting the flu.</p>
+						</div>
+					</div>
+				</div>	
+
+				<div class="row">
+					<div class="c4">
+						<div class="fears_stats">
+							<div id="folder">
+								<p id="folder_porcent">60&#37;</p>
+								<img id="folder_icon" src="img/folder.png" alt="folder" />
+								<p class="fears_white" id="files">Losing Important files</p>
+
+								<svg id="vertical_fearsline" width="400" height="66" viewPort="0 0 200 300" version="1.1" xmlns="http://www.w3.org/2000/svg">
+
+	    							<line stroke-dasharray="5, 5" x1="0" y1="19000" x2="190" y2="0" />
+
+		    						<style><![CDATA[
+									line{
+									    stroke: black;
+									    stroke-width: 2;
+									}
+									]]></style>
+								</svg>
+							</div>
+							<p id="versus">vs.</p>
+						</div>
+					</div>
+
+					<div class="c4">
+						<div class="fears_stats">						
+							<div id="heart">
+								<p id="heart_porcent">49&#37;</p>
+								<img id="heart_icon" src="img/heart.png" alt="heart" />
+								<p class="fears_white" id="relationship">Relationship break up</p>
+
+								<svg id="horizontal_relationship" width="110" height="100" viewPort="0 0 200 300" version="1.1" xmlns="http://www.w3.org/2000/svg">
+
+    								<line stroke-dasharray="5, 5" x1="10" y1="10" x2="320" y2="10" />
+
+		    						<style><![CDATA[
+									line{
+									    stroke: black;
+									    stroke-width: 2;
+									}
+									]]></style>
+								</svg>
+							</div>
+						</div>
+					</div>
+
+					<div class="c4 end">
+						<div class="fears_stats">						
+							<div id="doctor">
+								<p id="flu_porcent">28&#37;</p>
+								<img id="doctor_icon" src="img/doctor.png" alt="doctor" />
+								<p class="fears_white" id="the_flu">Getting the flu</p>
+
+								<svg id="horizontal_theflu" width="110" height="100" viewPort="0 0 200 300" version="1.1" xmlns="http://www.w3.org/2000/svg">
+
+    								<line stroke-dasharray="5, 5" x1="10" y1="10" x2="320" y2="10" />
+
+		    						<style><![CDATA[
+									line{
+									    stroke: black;
+									    stroke-width: 2;
+									}
+									]]></style>
+								</svg>	
+							</div>
+
+							<div id="conclusion">
+								<img id="different_headline" src="img/different.png" alt="Are they completely different?" />
+
+								<img class="smaller_arrow" src="img/arrow_down.png" alt="arrow" />
+
+								<p>Sometimes the line is very fuzzy. However, it's important to note that most <span class="red">geeks</span> are part nerd, and most <span class="blue">nerds</span> are part geek.</p>
+							</div>
 						</div>
 					</div>
 				</div>				
 
 				<!-- FOURTH QUESTION! -->
 				<div class="row">
-					<div class="c12">
+					<div class="c6" id="last_questions">
 						<div class="question">						
 							<h4>What's your gender?</h4>
 						</div>

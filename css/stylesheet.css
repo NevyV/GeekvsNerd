@@ -418,17 +418,32 @@ input {
 	margin-right: 10px;
 }
 
+.star {
+	width: 44px;
+	margin-left: 0;
+	position: absolute;
+	margin-top: 20px;
+}
+
+.question-answers {
+	margin-left: 50px;
+}
+
 .radio_questions .right_option {
 	margin-top: -154px;
   	margin-left: 260px;
 }
 
-.question {
+/*.question {
 	margin-left: 275px;
 }
 
 .radio_questions {
 	margin-left: 275px;	
+}*/
+
+.right_question {
+	margin-top: -285px;
 }
 
 .icon {
@@ -664,16 +679,183 @@ line:nth-child(1) {
   	margin-left: 110px;
 }
 
-#red {
+.red {
 	color: #c96156;
 	font-weight: 600;
+	text-transform: uppercase;
 }
 
-#blue {
+.blue {
 	color: #40688b;
 	font-weight: 600;
+	text-transform: uppercase;
 }
 
 .strong_value {
 	font-weight: 600;
 }
+
+
+#versus {
+	position: absolute;
+  	margin-left: 280px;
+  	margin-top: -80px;
+  	font-size: 3em;
+  	font-weight: 600;
+}
+
+
+.fears_white {
+	background-color: #fff;
+  	height: 80px;
+  	/* width: 260px; */
+  	padding-top: 10px;
+  	position: absolute;
+}
+
+p.fears_white {
+	padding-left: 10px;
+  	width: 90%;
+}
+
+#files {
+	position: absolute;
+  	width: 140px;
+  	height: 105px;
+  	margin-top: 70px;
+  	margin-left: 25px;
+}
+
+p#files {
+	padding-left: 20px;	
+}
+
+#folder_icon {
+	margin-left: 0;
+}
+
+
+#relationship {
+	width: 150px;
+  	margin-left: 240px;
+  	margin-top: -81px;
+}
+
+
+#the_flu {
+	width: 120px;
+  	margin-left: 230px;
+  	margin-top: -75px;
+}
+
+p#the_flu {
+	padding-left: 20px;
+}
+
+#heart_icon {
+	margin-left: 50px;
+  	margin-top: 26px;
+}
+
+
+#doctor_icon {
+	margin-top: 35px;
+  	margin-left: 80px;
+}
+
+
+#losing_files {
+	margin-top: 100px;
+  	margin-bottom: 140px;
+  	background-color: #fff;
+  	border-radius: 1em;
+  	height: 140px;
+}
+
+
+#last_questions {
+	margin-top: 340px;
+}
+
+
+#vertical_fearsline {
+	margin-left: -95px;
+  	margin-top: 2px;
+}
+
+#horizontal_relationship {
+	margin-left: 130px;
+  	margin-top: -50px;
+}
+
+#horizontal_theflu {
+	margin-left: 120px;
+  	margin-top: -50px;
+}
+
+#folder_porcent {
+	font-size: 4em;
+  	font-weight: 600;
+  	position: absolute;
+  	margin-top: -120px;
+  	margin-left: 30px;
+  	color: #f3ac44;
+}
+
+#heart_porcent {
+	color: #c96156;
+	position: absolute;
+	font-size: 3em;
+  	font-weight: 600;
+  	margin-top: -100px;
+  	margin-left: 45px;
+}
+
+#flu_porcent {
+	color: #40688b;
+  	position: absolute;
+	font-size: 2em;
+  	font-weight: 600;
+  	margin-top: -80px;
+  	margin-left: 70px;
+}
+
+#conclusion {
+	position: absolute;
+	width: 820px;
+  	margin-top: 80px;
+  	margin-left: -550px;
+}
+
+#conclusion p {
+	background-color: #fff;
+	width: 760px;
+  	margin-left: 30px;
+  	padding: 20px;
+  	margin-top: -10px;
+  	box-shadow: 10px 10px #d2cec3;
+}
+
+#losing_files #red_border {
+	border: 6px solid #c96156;
+  	border-radius: 1em;
+  	margin-top: 15px;
+  	height: 110px;
+  	width: 100%;
+}
+
+#losing_files #red_border p {
+	padding-left: 19px;
+  	width: 100%;
+}
+
+.smaller_arrow {
+	width: 20px;
+}
+
+
+
+
+
+
+
