@@ -2232,10 +2232,8 @@ function pickOutcome()
 				}
 			}
 		}
-	}
-	
+	}	
 	alert(chosenOption("firstOption"));
-
 }
 
 function chosenOption(groupName)
