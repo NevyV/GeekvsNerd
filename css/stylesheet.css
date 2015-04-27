@@ -453,7 +453,7 @@ input {
 
 .quiz_results {
 	/*visibility: hidden;*/
-	margin-left: 275px;	
+	margin-left: 385px;	
 }
 
 #geek_result {
@@ -844,7 +844,7 @@ p#the_flu {
   	box-shadow: 10px 10px #d2cec3;
 }
 
-#losing_files #red_border {
+.red_border {
 	border: 6px solid #c96156;
   	border-radius: 1em;
   	margin-top: 15px;
@@ -852,7 +852,7 @@ p#the_flu {
   	width: 100%;
 }
 
-#losing_files #red_border p {
+#losing_files .red_border p {
 	padding-left: 19px;
   	width: 100%;
 }
@@ -861,9 +861,210 @@ p#the_flu {
 	width: 20px;
 }
 
+/*-----------MOVIES GAMES-------------*/
+#movies_games_section {
+	margin-top: 100px;
+  	margin-bottom: 140px;
+  	background-color: #fff;
+  	border-radius: 1em;
+  	height: 140px;
+}
 
+#movies_games_section .red_border p {
+	padding-left: 19px;
+  	width: 100%;
+}
 
+#geeks_mg_section {
+	margin-top: -160px;
+}
 
+#nerds_mg_section {
+	margin-top: -1170px;
+}
 
+.some_too {
+	  width: 240px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  margin-top: -50px;
+  font-size: 1em;
+}
 
+#geekmovies_ex {
+	margin-top: 60px;
+	position: relative;
+}
 
+.geek_lines {
+	width: 240px;
+  	height: 4px;
+	background-color: #c96156;
+}
+
+.nerd_lines {
+	width: 240px;
+  	height: 4px;
+	background-color: #40688b;
+}
+
+#starwars_img {
+	margin-right: 80px;
+}
+
+#starwars_text {
+	margin-top: -110px;
+  position: absolute;
+  margin-left: 130px;
+  font-weight: 600;
+}
+
+#starwars_line {
+	margin-left: 70px;
+  margin-top: -80px;
+  position: absolute;
+}
+
+#ring_img {
+	margin-left: 70px;
+}
+
+#ring_text {
+position: absolute;
+  margin-top: -110px;
+  margin-left: 270px;
+    font-weight: 600;
+
+}
+
+#ring_line {
+position: absolute;
+  margin-top: -80px;
+  margin-left: 239px;
+}
+
+#ironman_img {
+	margin-right: 80px;
+
+}
+
+#ironman_text {
+	margin-top: -110px;
+  position: absolute;
+  margin-left: 90px;
+  font-weight: 600;
+}
+
+#ironman_line {
+	margin-left: 70px;
+  margin-top: -80px;
+  position: absolute;
+}
+
+#nerdmovies_ex {
+	margin-top: 60px;
+	position: relative;
+}
+
+#startrek_img {
+	margin-left: 60px;
+}
+
+#startrek_text {
+margin-top: -110px;
+  position: absolute;
+  margin-left: 290px;
+  font-weight: 600;
+}
+
+#startrek_line {
+	margin-left: 230px;
+  margin-top: -80px;
+  position: absolute;
+}
+
+#battlestar_img {
+	margin-right: 70px;
+}
+
+#battlestar_text {
+	position: absolute;
+  margin-top: -110px;
+  margin-left: 130px;
+    font-weight: 600;
+}
+
+#battlestar_line {
+	position: absolute;
+  margin-top: -80px;
+  margin-left: 80px;
+}
+
+#guide_img {
+	margin-left: 60px;
+}
+
+#guide_text {
+	margin-top: -110px;
+  position: absolute;
+  margin-left: 250px;
+  font-weight: 600;
+}
+
+#guide_line {
+	margin-left: 230px;
+  margin-top: -80px;
+  position: absolute;
+}
+
+.movie_img {
+	position: absolute;
+	opacity: 0.2;
+	margin-top: 130px;
+  margin-left: 110px;
+}
+
+#geekmovie_img {
+	margin-left: 160px;
+}
+
+.games {
+	background-color: #fff;
+  width: 470px;
+  margin-left: 60px;
+  padding: 20px;
+  margin-top: 130px;
+  box-shadow: 10px 10px #d2cec3;
+}
+
+#controller_img {
+	position: absolute;
+  margin-top: -70px;
+  margin-left: -10px;
+}
+
+#dices_img {
+	position: absolute;
+  width: 20%;
+  margin-left: -12px;
+  margin-top: -70px;
+}
+
+#geekgames_ex {
+
+}
+
+.fa-custom-icon-geek {
+	color: #c96156;
+	margin-right: 10px;
+}
+
+.fa-custom-icon-nerd {
+	color: #40688b;
+	margin-right: 10px;
+}
+
+.bolder {
+	font-weight: 600;
+}
