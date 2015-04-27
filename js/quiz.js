@@ -354,21 +354,34 @@ function pickOutcome() {
 	}
 
 
+	//QUESTION 7
+	if(chosenOption('seventhOption') === 'geek') {
+		geekPts = geekPts + 1;
+	} 
+	if(chosenOption('seventhOption') === 'nerd') {
+		nerdPts = nerdPts + 1;
+	}
+
+
 	//QUESTION 8
 	if(chosenOption('eighthOption') === 'female' && geekPts > nerdPts) {
 		// alert(geekPts + ' GEEK PTS');
+		// alert(nerdPts + ' NERD PTS');
 		return 1;
 	} 
 	if(chosenOption('eighthOption') === 'female' && geekPts < nerdPts) {
+		// alert(geekPts + ' GEEK PTS');
 		// alert(nerdPts + ' NERD PTS');
 		return 3;
 	} 
 
 	if(chosenOption('eighthOption') === 'male' && geekPts > nerdPts) {
 		// alert(geekPts + ' GEEK PTS');
+		// alert(nerdPts + ' NERD PTS');
 		return 2;
 	}
 	if(chosenOption('eighthOption') === 'male' && geekPts < nerdPts) {
+		// alert(geekPts + ' GEEK PTS');
 		// alert(nerdPts + ' NERD PTS');
 		return 4;
 	}
