@@ -22,15 +22,15 @@ function outcome()
 	    var tum_link = document.createElement('a');	    
 	    
 	    var fbPopUp = function() {
-	    	window.open('https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgoogle.com', '_blank', 'toolbar=yes, scrollbars=yes, resizable=yes, top=0, left=0, width=700, height=500');
+	    	window.open('https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fsulley.cah.ucf.edu%2F~st369963%2FGeekvsNerd%2F', '_blank', 'toolbar=yes, scrollbars=yes, resizable=yes, top=0, left=0, width=700, height=500');
 	    }
 
 	    var twitPopUp = function() {
-	    	window.open('https://twitter.com/intent/tweet?url=https://www.google.com/&text=Take%20the%20Geeks%20vs%20Nerds%20quiz!', '_blank', 'toolbar=yes, scrollbars=yes, resizable=yes, top=0, left=0, width=700, height=500');
+	    	window.open('https://twitter.com/intent/tweet?url=http://sulley.cah.ucf.edu/~st369963/GeekvsNerd/&text=Take%20the%20Geeks%20vs%20Nerds%20quiz!', '_blank', 'toolbar=yes, scrollbars=yes, resizable=yes, top=0, left=0, width=700, height=500');
 	    }
 
 	    var tumPopUp = function() {
-	    	window.open('http://www.tumblr.com/share?v=3&u=https://www.google.com/&t=Geeks%20vs%20Nerds%20Quiz!&s=', '_blank', 'toolbar=yes, scrollbars=yes, resizable=yes, top=0, left=0, width=700, height=500');
+	    	window.open('http://www.tumblr.com/share?v=3&u=http://sulley.cah.ucf.edu/~st369963/GeekvsNerd/&t=Geeks%20vs%20Nerds%20Quiz!&s=', '_blank', 'toolbar=yes, scrollbars=yes, resizable=yes, top=0, left=0, width=700, height=500');
 	    }
 
 
@@ -93,15 +93,15 @@ function outcome()
 	    var tum_link = document.createElement('a');
 	    
 	    var fbPopUp = function() {
-	    	window.open('https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgoogle.com', '_blank', 'toolbar=yes, scrollbars=yes, resizable=yes, top=0, left=0, width=700, height=500');
+	    	window.open('https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fsulley.cah.ucf.edu%2F~st369963%2FGeekvsNerd%2F', '_blank', 'toolbar=yes, scrollbars=yes, resizable=yes, top=0, left=0, width=700, height=500');
 	    }
 
 	    var twitPopUp = function() {
-	    	window.open('https://twitter.com/intent/tweet?url=https://www.google.com/&text=Take%20the%20Geeks%20vs%20Nerds%20quiz!', '_blank', 'toolbar=yes, scrollbars=yes, resizable=yes, top=0, left=0, width=700, height=500');
+	    	window.open('https://twitter.com/intent/tweet?url=http://sulley.cah.ucf.edu/~st369963/GeekvsNerd/&text=Take%20the%20Geeks%20vs%20Nerds%20quiz!', '_blank', 'toolbar=yes, scrollbars=yes, resizable=yes, top=0, left=0, width=700, height=500');
 	    }
 
 	    var tumPopUp = function() {
-	    	window.open('http://www.tumblr.com/share?v=3&u=https://www.google.com/&t=Geeks%20vs%20Nerds%20Quiz!&s=', '_blank', 'toolbar=yes, scrollbars=yes, resizable=yes, top=0, left=0, width=700, height=500');
+	    	window.open('http://www.tumblr.com/share?v=3&u=http://sulley.cah.ucf.edu/~st369963/GeekvsNerd/&t=Geeks%20vs%20Nerds%20Quiz!&s=', '_blank', 'toolbar=yes, scrollbars=yes, resizable=yes, top=0, left=0, width=700, height=500');
 	    }
 
 
@@ -166,15 +166,15 @@ function outcome()
 	    var tum_link = document.createElement('a');
 
 	    var fbPopUp = function() {
-	    	window.open('https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgoogle.com', '_blank', 'toolbar=yes, scrollbars=yes, resizable=yes, top=0, left=0, width=700, height=500');
+	    	window.open('https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fsulley.cah.ucf.edu%2F~st369963%2FGeekvsNerd%2F', '_blank', 'toolbar=yes, scrollbars=yes, resizable=yes, top=0, left=0, width=700, height=500');
 	    }
 
 	    var twitPopUp = function() {
-	    	window.open('https://twitter.com/intent/tweet?url=https://www.google.com/&text=Take%20the%20Geeks%20vs%20Nerds%20quiz!', '_blank', 'toolbar=yes, scrollbars=yes, resizable=yes, top=0, left=0, width=700, height=500');
+	    	window.open('https://twitter.com/intent/tweet?url=http://sulley.cah.ucf.edu/~st369963/GeekvsNerd/&text=Take%20the%20Geeks%20vs%20Nerds%20quiz!', '_blank', 'toolbar=yes, scrollbars=yes, resizable=yes, top=0, left=0, width=700, height=500');
 	    }
 
 	    var tumPopUp = function() {
-	    	window.open('http://www.tumblr.com/share?v=3&u=https://www.google.com/&t=Geeks%20vs%20Nerds%20Quiz!&s=', '_blank', 'toolbar=yes, scrollbars=yes, resizable=yes, top=0, left=0, width=700, height=500');
+	    	window.open('http://www.tumblr.com/share?v=3&u=http://sulley.cah.ucf.edu/~st369963/GeekvsNerd/&t=Geeks%20vs%20Nerds%20Quiz!&s=', '_blank', 'toolbar=yes, scrollbars=yes, resizable=yes, top=0, left=0, width=700, height=500');
 	    }
 
 
@@ -238,15 +238,15 @@ function outcome()
 	    var tum_link = document.createElement('a');
 	    
 	    var fbPopUp = function() {
-	    	window.open('https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgoogle.com', '_blank', 'toolbar=yes, scrollbars=yes, resizable=yes, top=0, left=0, width=700, height=500');
+	    	window.open('https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fsulley.cah.ucf.edu%2F~st369963%2FGeekvsNerd%2F', '_blank', 'toolbar=yes, scrollbars=yes, resizable=yes, top=0, left=0, width=700, height=500');
 	    }
 
 	    var twitPopUp = function() {
-	    	window.open('https://twitter.com/intent/tweet?url=https://www.google.com/&text=Take%20the%20Geeks%20vs%20Nerds%20quiz!', '_blank', 'toolbar=yes, scrollbars=yes, resizable=yes, top=0, left=0, width=700, height=500');
+	    	window.open('https://twitter.com/intent/tweet?url=http://sulley.cah.ucf.edu/~st369963/GeekvsNerd/&text=Take%20the%20Geeks%20vs%20Nerds%20quiz!', '_blank', 'toolbar=yes, scrollbars=yes, resizable=yes, top=0, left=0, width=700, height=500');
 	    }
 
 	    var tumPopUp = function() {
-	    	window.open('http://www.tumblr.com/share?v=3&u=https://www.google.com/&t=Geeks%20vs%20Nerds%20Quiz!&s=', '_blank', 'toolbar=yes, scrollbars=yes, resizable=yes, top=0, left=0, width=700, height=500');
+	    	window.open('http://www.tumblr.com/share?v=3&u=http://sulley.cah.ucf.edu/~st369963/GeekvsNerd/&t=Geeks%20vs%20Nerds%20Quiz!&s=', '_blank', 'toolbar=yes, scrollbars=yes, resizable=yes, top=0, left=0, width=700, height=500');
 	    }
 
 	    
